@@ -1,4 +1,4 @@
 # slide
 This is a slide published by Takanen.
 
-[test](../test/)
+[test](../slide/test/)
