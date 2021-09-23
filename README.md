@@ -3,4 +3,4 @@ This is a slide published by Takanen.
 
 ### List of slides
 
-* [test](../slide/test/)
+* [test](../slide/テスト/)
