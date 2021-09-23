@@ -13,7 +13,7 @@ then
     mv -f export/ $TITLE
     # git に commit and push
     git add .
-    git commit -m "add ${TITLE}"
+    git commit -m "${TITLE}"
     git push origin main
 else
     # git に commit and push
