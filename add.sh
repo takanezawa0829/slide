@@ -7,7 +7,7 @@ then
     then
         rm -rf $TITLE
     fi
-    # mv -f export/ $TITLE
+    mv -f export/ $TITLE
     # read meにリンクを追加
     sed -i "6i * [${TITLE}](../slide/${TITLE}/)" README.md
     # git に commit and push
