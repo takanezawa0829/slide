@@ -6,4 +6,5 @@ This is a slide published by Takanen.
 * [テスト](../slide/テスト/)
 * [テスト](../slide/テスト/)
 * [テスト](../slide/テスト/)
+* [テスト](../slide/テスト/)
 
