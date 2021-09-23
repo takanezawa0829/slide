@@ -3,9 +3,9 @@ then
     # exportフォルダを改名
     echo "スライドのタイトルを入力してください。(半角スペース禁止)"
     read TITLE
-    if [ -e "${TITLE}"]
+    if [ -e $TITLE]
     then
-        rm -rf "${TITLE}"
+        rm -rf $TITLE
     fi
     # mv -f export/ $TITLE
     # read meにリンクを追加
