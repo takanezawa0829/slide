@@ -34,3 +34,7 @@ title: "サンプル"
 下フェード {.fragment .fade-down}
 
 左フェード {.fragment .fade-left}
+
+* みかん
+* もも
+* やさい
