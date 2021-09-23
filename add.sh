@@ -1,15 +1,16 @@
 if [ -e export ]
 then 
-    # exportフォルダを改名
     echo "スライドのタイトルを入力してください。(半角スペース禁止)"
     read TITLE
     if [ -e $TITLE ]
     then
         rm -rf $TITLE
+    else
+        # read meにリンクを追加
+        sed -i "6i * [${TITLE}](../slide/${TITLE}/)" README.md
     fi
+    # exportフォルダを改名
     mv -f export/ $TITLE
-    # read meにリンクを追加
-    sed -i "6i * [${TITLE}](../slide/${TITLE}/)" README.md
     # git に commit and push
     git add .
     git commit -m "add ${TITLE}"
