@@ -7,7 +7,7 @@ then
         rm -rf $TITLE
     else
         # read meにリンクを追加
-        sed -i "6i * [${TITLE}](../slide/${TITLE}/)" README.md
+        sed -i "6i * [${TITLE}](https://takanezawa0829.github.io/slide/${TITLE}/)" README.md
     fi
     # exportフォルダを改名
     mv -f export/ $TITLE

@@ -1,6 +1,7 @@
 # slide
-This is a slide published by Takanen.
+スライドをつくってみました★
+趣味、作業などいろいろ使うかも
 
 ### List of slides
 
-* [テスト](../slide/テスト/)
+* [テスト](https://takanezawa0829.github.io/slide/テスト/)
