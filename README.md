@@ -1,7 +1,7 @@
 # slide
-スライドをつくってみました★
-趣味、作業などいろいろ使うかも
+
+趣味、ちょっとしたプレゼンのためのスライド置き場。
 
 ### List of slides
+* [test](https://takanezawa0829.github.io/slide/test/)
 
-* [テスト](https://takanezawa0829.github.io/slide/テスト/)
